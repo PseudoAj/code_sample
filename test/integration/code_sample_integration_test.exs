@@ -42,9 +42,12 @@ defmodule CodeSampleIntegrationTest do
     end
   end
 
-  test "We can add a comment to a file"
+  #Spent majority time obtaining signature for access token:
+  #Following are tests I would have done if I was Successful:
+  #1. create_comments!
+  #   1.1. Check for invalid file
+  #   1.2. Check for proper file
+  #   1.3. Check for blank text
 
-  test "We can delete a comment from a file"
 
-  test "We can modify a comment on a file"
 end
